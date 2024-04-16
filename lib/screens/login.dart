@@ -123,7 +123,7 @@ class LoginPage extends StatefulWidget {
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: ((context) => HomePage())));
+                      MaterialPageRoute(builder: ((context) => Plant_List())));
                 },
                 style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFF4A884D),
